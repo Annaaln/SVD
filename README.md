@@ -1,1 +1,2 @@
-# SVD
+gerenator.ipynb is needed to create the "matrices.npz" and "matrices2.npz" files. 
+In this project, I worked with singular matrix decomposition, translation into L1 space, and parameter optimization. The Coordinate file contains algorithms for coordinate descent by singular values. First algorithm is descent by UV and S values, the second is only by singular values. Algorithms automatically select the necessary initial_steps. In the launch function, it is possible to set the rank and check for LRA. The adam file contains the adam descent algorithm, which can also be done for LRA. Adam's "settings" are also available, i.e. several algorithms for selecting the best parameters.
